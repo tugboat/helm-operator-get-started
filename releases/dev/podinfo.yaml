@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: stefanprodan/podinfo:dev-441ldjqq
+    image: wayneschroer/podinfo:dev-441ldjqq
     replicaCount: 1
     hpa:
       enabled: false
